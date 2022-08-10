@@ -164,6 +164,8 @@
     margin: 90px 0px 30px 0px;
 }
 
+/* body table  */
+
 .body__desc span{
     color: var(--blue);
 }
@@ -205,7 +207,7 @@
     padding: 20px 0;
 }
 
-.body__table-item:nth-child(2n+1){
+.body__table-item:nth-child(2n){
     background-color: var(--bg-white);
 }
 
@@ -276,8 +278,214 @@
     border: 1px solid var(--bg-btn-white);
     width: 40px;
     height: 30px;
-    cursor: pointer;
+    /* cursor: pointer; */
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.body__table-foot{
+    padding: 20px 0;
+    border-top:1px solid var(--border-white) ;
+    border-bottom:1px solid var(--border-white) ;
+    display: flex;
+    align-items: center;
+}
+
+.body__table-foot--input{
+    background-color: var(--bg-white);
+    border: 1px solid var(--border-white);
+    border-radius: 2px ;
+    width: 250px;
+    padding: 15px 20px;
+    
+}
+
+.body__table-foot--input:focus{
+    border-color: var(--border-white);
+}
+
+.body__table-foot--btn{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 4px solid black;
+    padding: 10px 20px;
+    border-radius: 4px ;
+    cursor: pointer;
+}
+
+.body__table-foot--btn-aply{
+    margin-left: 20px;
+    color: var(--blue);
+    border-color:var(--blue) ;
+}
+
+.body__table-foot--btn-update{
+    margin-left: 322px;
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--blue) ;
+}
+
+.body__table-foot--btn-check{
+    margin-left: 20px;
+    color: var(--white);
+    border-color:var(--black-blue) ;
+    background-color:var(--black-blue) ;
+}
+
+.body__table-foot--btn-check i {
+    margin-right: 10px;
+    /* display: inline block; */
+}
+
+/* body form  */
+
+.body__form{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.body__form-name{
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.body__form-50{
+    width: calc(50% - 20px);
+    /* background-color: aquamarine; */
+}
+
+.body__form-body--select{
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    border: 1px solid var(--border-white);
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    color: var(--text);
+    cursor: pointer;
+}
+
+.body__form-body--select-icon{
+    position: absolute;
+    font-size: 15px;
+    right: 3%;
+    top: 38%;
+}
+
+.body__form-body--input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body__form-body--input-item{
+    margin-top: 20px;
+    width: calc(50% - 15px);
+    padding: 10px 0px 10px 20px;
+    border: 1px solid var(--border-white);
+    box-sizing: border-box; 
+    color: var(--text);
+}
+
+.body__form-body--btn{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 4px solid var(--blue);
+    padding: 10px 20px;
+    border-radius: 4px ;
+    cursor: pointer;
+    color: var(--blue);
+    margin-top: 20px;
+    width: 26%;
+}
+
+.body__form-body--table-item{
+    display: flex;
+}
+
+.body__form-body--table-header{
+    width: 50%;
+    box-sizing: border-box; 
+    border: 1px solid var(--border-white);
+    padding: 10px 0px 10px 20px;
+    color: var(--text);
+    background-color: var(--bg-white);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.body__form-body--table-item-value{
+    width: 50%;
+    box-sizing: border-box; 
+    border: 1px solid var(--border-white);
+    padding: 10px 0px 10px 20px;
+    color: var(--text);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.body__form-body--table-item-value-radio{
+    display: block;
+}
+
+.body__form-body--table-item-value--box input{
+    color: var(--text);
+}
+
+/* body list  */
+.body__list{
+    margin: 140px 0px 140px 0px;
+}
+
+.body__list-heading{
+    margin-bottom: 70px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.body__list-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body__list-item{
+    width: calc((100% / 6) - 30px);
+    text-align: center;
+    border: 1px solid var(--border-white);
+}
+
+.body__list-item-avatar{
+    width: 100%;
+}
+
+.body__list-item-avatar--img{
+    width: 100%;
+}
+
+.body__list-item-name{
+    /* color: var(--text); */
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.body__list-item-price{
+    font-size: 14px;
+    color: var(--blue);
+    margin: 10px 0px 20px 0px;
 }

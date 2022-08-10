@@ -112,6 +112,7 @@
             <div class="grid">
                 <div class="body__desc">You Have <span>6 Items</span> In Your Cart</div>
 
+                <!-- body table  -->
                 <div class="body__table">
                     <div class="body__table-head">
                         <div class="body__table-head--list">
@@ -205,13 +206,120 @@
                     </div>
 
                     <div class="body__table-foot">
-                        <input type="text" class="body__table-foot--input">
-                        <div class="body__table-foot--btn">Apply</div>
-                        <div class="body__table-foot--btn">Update cart</div>
-                        <div class="body__table-foot--btn">Checkout</div>
+                        <input type="text" class="body__table-foot--input" placeholder="Enter Coupon Code Here..">
+                        <div class="body__table-foot--btn body__table-foot--btn-aply">Apply</div>
+                        <div class="body__table-foot--btn body__table-foot--btn-update">Update cart</div>
+                        <div class="body__table-foot--btn body__table-foot--btn-check"><i class="fa-solid fa-check"></i>Checkout</div>
                     </div>
 
                 </div>
+
+                <!-- body form  -->
+                <div class="body__form">
+                    <div class="body__form-50">
+                        <div class="body__form-name">calculate shipping</div>
+                        <div class="body__form-body">
+                            <div class="body__form-body--select">
+                                Select Your Country
+                                <i class="fa-solid fa-chevron-down body__form-body--select-icon"></i>
+                            </div>
+                            <div class="body__form-body--input">
+                                <input type="text" class="body__form-body--input-item" placeholder="State / County">
+                                <input type="text" class="body__form-body--input-item" placeholder="Postcode / Zip">
+                            </div>
+                            <div class="body__form-body--btn">update totals</div>
+                        </div>
+
+                    </div>
+                    <div class="body__form-50">
+                        <div class="body__form-name">cart totals</div>
+                        <div class="body__form-body">
+                            <div class="body__form-body--table">
+                                <div class="body__form-body--table-item">
+                                    <div class="body__form-body--table-header">Subtotal</div>
+                                    <div class="body__form-body--table-item-value">$1285.99</div>
+                                </div>
+                                <div class="body__form-body--table-item">
+                                    <div class="body__form-body--table-header">Shipping And Handling</div>
+                                    <div class="body__form-body--table-item-value body__form-body--table-item-value-radio">
+                                        <div class="body__form-body--table-item-value--box">
+                                            <input type="radio" id="value1" name="value1">
+                                            <label for="value1">Flat Rate: $3.99</label>
+                                        </div>
+                                        <div class="body__form-body--table-item-value--box">
+                                            <input type="radio" id="value1" name="value1">
+                                            <label for="value1">Free Shipping</label>
+                                        </div>
+                                        <div class="body__form-body--table-item-value--box">
+                                            <input type="radio" id="value1" name="value1">
+                                            <label for="value1">Flat Rate: $12.99</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body__form-body--table-item">
+                                    <div class="body__form-body--table-header">Total</div>
+                                    <div class="body__form-body--table-item-value">$2015.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- body list  -->
+                <div class="body__list">
+                    <div class="body__list-heading">You may be interested in</div>
+                    <div class="body__list-menu">
+                        <!-- item  -->
+                        <div class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                        </div>
+
+                        <div class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                        </div>
+
+                        <div class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                        </div>
+
+                        <div class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                        </div>
+
+                        <div class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                        </div>
+
+                        <div class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
