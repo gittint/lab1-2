@@ -108,7 +108,7 @@
     position: absolute;
     content: "";
     top: 0%;
-    right: 102%;
+    right: 101%;
     border-width: 11px 11px;
     border-style: solid;
     border-color: transparent var(--blue) transparent transparent;
@@ -417,7 +417,7 @@
     width: 50%;
     box-sizing: border-box; 
     border: 1px solid var(--border-white);
-    padding: 10px 0px 10px 20px;
+    padding: 20px 0px 20px 20px;
     color: var(--text);
     background-color: var(--bg-white);
     font-size: 16px;
@@ -429,7 +429,7 @@
     width: 50%;
     box-sizing: border-box; 
     border: 1px solid var(--border-white);
-    padding: 10px 0px 10px 20px;
+    padding: 20px 0px 20px 20px;
     color: var(--text);
     font-size: 16px;
     display: flex;
@@ -442,6 +442,7 @@
 
 .body__form-body--table-item-value--box input{
     color: var(--text);
+    margin: 8px 0;
 }
 
 /* body list  */
@@ -468,7 +469,18 @@
     width: calc((100% / 6) - 30px);
     text-align: center;
     border: 1px solid var(--border-white);
+    cursor: pointer;
+    position: relative;
 }
+
+.body__list-item.active .body__list-item-img--sale{
+    display: block;
+}
+
+.body__list-item.active .body__list-item-img--new{
+    display: block;
+}
+
 
 .body__list-item-avatar{
     width: 100%;
@@ -488,4 +500,94 @@
     font-size: 14px;
     color: var(--blue);
     margin: 10px 0px 20px 0px;
+}
+
+.body__list-item-img--sale{
+    position: absolute;
+    top: 11%;
+    right: -8%;
+    z-index: 2;
+    display: none;
+}
+
+.body__list-item-img--new{
+    position: absolute;
+    top: 27%;
+    right: -6%;
+    display: none;
+}
+
+/* foot  */
+.foot{
+    background-color: var(--bg-foot);
+}
+
+.foot-block{
+    padding-top: 130px;
+}
+
+.foot__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot__col{
+    width: calc((100% / 4) - 25px);
+}
+
+.foot__col-overview--logo{
+    margin-bottom: 50px;
+}
+
+.foot__col-overview--desc{
+    margin-bottom: 60px;
+}
+
+.foot__col-contact--heading{
+    margin-bottom: 40px;
+}
+
+.foot__col-contact--connect{
+    line-height: 30px;
+}
+
+.foot__col-contact i{
+    margin-right: 10px;
+}
+
+.foot__col-post--header{
+    margin-bottom: 50px;
+}
+
+.foot__col-post--item{
+    display: flex;
+}
+
+.foot__col-post--item-img{
+    margin-right: 15px;
+}
+
+.foot__col-post--item-img-src{
+    border-radius: 50%;
+}
+
+.foot__col-post--text-foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot__col-post--text-foot-day{
+    font-size: 12px;
+}
+
+.foot__col-post--text-foot-chat{
+    font-size: 12px;
+}
+
+.foot__col-post--list-line.line-foot{
+    line-height: 10px; 
+}
+
+.foot__col-usefull{
+    margin-top: 60px;
 }
