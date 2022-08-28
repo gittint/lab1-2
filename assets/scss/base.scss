@@ -1,0 +1,148 @@
+$text : #5f727f;
+$black-blue: #3c3950;
+$blue : #00bcd4;
+$bg-white: #f4f6f7;
+$border-white: #dfe5e8;
+$white: #ffffff;
+$red: #f44336;
+$bg-btn-white: #dfe5e8;
+$bg-num-white: #f5f7f6;
+$bg-foot: #212331;
+$input-foot: #181828;
+$btn-foot: #394050;
+$text-foot: #99a9b5;
+$nav-foot: #181828;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{  
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Joan', serif;
+    font-family: 'Charis SIL', serif; */
+}
+
+ul{
+    padding-left: 0px;
+    margin-left: 0px;
+    list-style: none;
+}
+
+li{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.icon-red{
+    color: $red !important;
+}
+
+.base{
+
+    &-menu{
+        border-right: 1px solid $border-white;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    &-box{
+        height: 100%;
+        padding: 0 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    &-item{
+        color: $text;
+        font-size: 14px;
+        padding: 20px 0;
+        margin-right: 10px;
+        display: block;
+
+        &:last-child{
+            margin-right: 0px;
+        }
+    }
+
+}
+
+
+.header-foot{
+    display: flex;
+}
+
+.heading-foot{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #feffff;
+    font-weight: 700;
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+
+    &::after{
+        position: absolute;
+        content: "";
+        bottom: 4%;
+        right: -20px;
+        border-width: 7px 7px;
+        border-style: solid;
+        border-color: $red transparent transparent transparent;
+        transform: rotate(45deg);
+    }
+
+    &-non{
+        visibility: hidden;
+    }
+}
+
+.text-foot{
+    font-size: 14px;
+    line-height: 25px;
+    color: $text-foot;
+    font-weight: 400;
+}
+
+.link-foot{
+    font-size: 14px;
+    line-height: 25px;
+    color: $blue;
+    font-weight: 400;
+}
+
+.line-foot{
+    font-size: 14px;
+    line-height: 50px;
+    color: $text-foot;
+    font-weight: 400;
+    letter-spacing: 5px;
+    height: 50px;
+    overflow: hidden;
+
+    &--min{
+        position: relative;
+    }
+}
+
+.base-picture-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+    img{
+        display: block;
+    }
+}
+
