@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- reset css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- css  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- font chu-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Joan&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- icon -->
+    <!-- <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<body>
+    <div class="app">
+        <!-- head  -->
+        <div class="head">
+            <div class="grid">
+                <div class="head__menu">
+                    <div class="head__menu-tel base-menu">
+                        <div class="head__menu-tel-box base-box">
+                            <a href="" class="fa-solid fa-headphones head__menu-tel-icon base-item"></a>
+                            <a href="" class="head__menu-tel-number base-item">+1 916-85-2235</a>
+                        </div>
+                    </div>
+                    <div class="head__menu-icon base-menu">
+                        <div class="head__menu-icon-list base-box">
+                            <a href="" class="fa-brands fa-twitter base-item"></a>
+                            <a href="" class="fa-brands fa-facebook-f base-item"></a>
+                            <a href="" class="fa-brands fa-linkedin-in base-item"></a>
+                            <a href="" class="fa-brands fa-google-plus-g base-item"></a>
+                            <a href="" class="fa-brands fa-instagram base-item"></a>
+                            <a href="" class="fa-brands fa-youtube base-item icon-red"></a>
+                            <a href="" class="fa-brands fa-pinterest-p base-item"></a>
+                        </div>
+                    </div>
+                    <div class="head__menu-nav base-menu">
+                        <div class="head__menu-nav-list base-box">
+                            <a href="" class="head__menu-nav-item base-item"><i class="fa-solid fa-angle-right"></i>My Account</a>
+                            <a href="" class="head__menu-nav-item base-item"><i class="fa-solid fa-angle-right"></i>FAQ</a>
+                            <a href="" class="head__menu-nav-item base-item"><i class="fa-solid fa-angle-right"></i>Contact Us</a>
+                            <a href="" class="head__menu-nav-item base-item"><i class="fa-solid fa-angle-right"></i>Newsletter Signup</a>
+                            <a href="" class="head__menu-nav-item base-item"><i class="fa-solid fa-angle-right"></i>Shipping Terms</a>
+                        </div>
+                        
+                    </div>
+                    <div class="head__menu-button">My Wishlist</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- nav  -->
+        <div class="nav">
+            <div class="grid">
+               <div class="nav__box">
+                    <a href="" class="nav__logo">
+                        <img src="./assets/img/Vector Smart Object copy.png" alt="">
+                    </a>
+                    <div class="nav__menu">
+                        <div class="nav__menu-list">
+                            <a href="" class="nav__menu-item">Home</a>
+                            <a href="" class="nav__menu-item">Pages</a>
+                            <a href="" class="nav__menu-item">Blog</a>
+                            <a href="" class="nav__menu-item">Portfolios</a>
+                            <a href="" class="nav__menu-item active">Shop</a>
+                            <a href="" class="nav__menu-item">Features</a>
+                            <a href="" class="nav__menu-item">Elements</a>
+                        </div>
+                    </div>
+                    <div class="nav__menu-icon">
+                        <div class="nav__menu-icon-list">
+                            <a href="" class="nav__menu-icon-item"><img src="./assets/img/america.png" alt=""></a>
+                            <a href="" class="fa-solid fa-magnifying-glass nav__menu-icon-item"></a>
+                            <a href="" class="fa-solid fa-bag-shopping nav__menu-icon-item"></a>
+                            <div class="nav__menu-icon-number">2</div>
+                        </div>
+                    </div>
+               </div> 
+            </div>
+        </div>
+
+        <!-- Subnav  -->
+        <div class="subnav">
+            <div class="grid">
+                <div class="subnav__box">
+                    <div class="subnav__menu">
+                        <div class="subnav__menu-img-box">
+                            <img src="./assets/img/woo cart.png" alt="" class="subnav__menu-img">
+                        </div>
+                        <div class="subnav__menu-list">
+                            <a href="" class="subnav__menu-item">Home</a>
+                            <a href="" class="subnav__menu-item"><i class="fa-solid fa-arrow-right"></i>Breadcrumbs Example</a>
+                            <a href="" class="subnav__menu-item"><i class="fa-solid fa-arrow-right"></i>Second Level</a>
+                            <a href="" class="subnav__menu-item active"><i class="fa-solid fa-arrow-right"></i>Third Level</a>
+                        </div>
+                    </div>
+    
+                    <a href="#" class="subnav__cart">
+                        <img src="./assets/img/cart-icon.png" alt="" class="subnav__cart-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- body  -->
+        <div class="body">
+            <div class="grid">
+                <div class="body__desc">You Have <span>6 Items</span> In Your Cart</div>
+
+                <!-- body table  -->
+                <div class="body__table">
+                    <div class="body__table-head">
+                        <div class="body__table-head--list">
+                            <div class="body__table-head--item">Product</div>
+                            <div class="body__table-head--item">Price</div>
+                            <div class="body__table-head--item">Quantity</div>
+                            <div class="body__table-head--item">Total</div>
+                        </div>
+                    </div>
+
+                    <div class="body__table-list">
+                        <div class="body__table-item">
+                            <div class="body__table-item--icon"><i class="fa-solid fa-xmark"></i></div>
+                            <div class="body__table-item--product">
+                                <img src="./assets/img/avatar.png" alt="" class="body__table-item--product-img">
+                                <div class="body__table-item--product-name">Lorem ipsum dolor sit amet</div>
+                                <div class="body__table-item--product-propety">Size: Large, Color: Black</div>
+                            </div>
+                            <div class="body__table-item--price">$35.99</div>
+                            <div class="body__table-item--quantity">
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--down">-</div>
+                                <div class="body__table-item--quantity-number">1</div>
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--up">+</div>
+                            </div>
+                            <div class="body__table-item--total">$35.99</div>
+                        </div>
+    
+                        <div class="body__table-item">
+                            <div class="body__table-item--icon"><i class="fa-solid fa-xmark"></i></div>
+                            <div class="body__table-item--product">
+                                <img src="./assets/img/avatar.png" alt="" class="body__table-item--product-img">
+                                <div class="body__table-item--product-name">Lorem ipsum dolor sit amet</div>
+                                <div class="body__table-item--product-propety">Size: Large, Color: Black</div>
+                            </div>
+                            <div class="body__table-item--price">$35.99</div>
+                            <div class="body__table-item--quantity">
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--down">-</div>
+                                <div class="body__table-item--quantity-number">1</div>
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--up">+</div>
+                            </div>
+                            <div class="body__table-item--total">$35.99</div>
+                        </div>
+    
+                        <div class="body__table-item">
+                            <div class="body__table-item--icon"><i class="fa-solid fa-xmark"></i></div>
+                            <div class="body__table-item--product">
+                                <img src="./assets/img/avatar.png" alt="" class="body__table-item--product-img">
+                                <div class="body__table-item--product-name">Lorem ipsum dolor sit amet</div>
+                                <div class="body__table-item--product-propety">Size: Large, Color: Black</div>
+                            </div>
+                            <div class="body__table-item--price">$35.99</div>
+                            <div class="body__table-item--quantity">
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--down">-</div>
+                                <div class="body__table-item--quantity-number">1</div>
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--up">+</div>
+                            </div>
+                            <div class="body__table-item--total">$35.99</div>
+                        </div>
+    
+                        <div class="body__table-item">
+                            <div class="body__table-item--icon"><i class="fa-solid fa-xmark"></i></div>
+                            <div class="body__table-item--product">
+                                <img src="./assets/img/avatar.png" alt="" class="body__table-item--product-img">
+                                <div class="body__table-item--product-name">Lorem ipsum dolor sit amet</div>
+                                <div class="body__table-item--product-propety">Size: Large, Color: Black</div>
+                            </div>
+                            <div class="body__table-item--price">$35.99</div>
+                            <div class="body__table-item--quantity">
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--down">-</div>
+                                <div class="body__table-item--quantity-number">1</div>
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--up">+</div>
+                            </div>
+                            <div class="body__table-item--total">$35.99</div>
+                        </div>
+    
+                        <div class="body__table-item">
+                            <div class="body__table-item--icon"><i class="fa-solid fa-xmark"></i></div>
+                            <div class="body__table-item--product">
+                                <img src="./assets/img/avatar.png" alt="" class="body__table-item--product-img">
+                                <div class="body__table-item--product-name">Lorem ipsum dolor sit amet</div>
+                                <div class="body__table-item--product-propety">Size: Large, Color: Black</div>
+                            </div>
+                            <div class="body__table-item--price">$35.99</div>
+                            <div class="body__table-item--quantity">
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--down">-</div>
+                                <div class="body__table-item--quantity-number">1</div>
+                                <div class="body__table-item--quantity-btn body__table-item--quantity-btn--up">+</div>
+                            </div>
+                            <div class="body__table-item--total">$35.99</div>
+                        </div>
+                    </div>
+
+                    <div class="body__table-foot">
+                        <input type="text" class="body__table-foot--input" placeholder="Enter Coupon Code Here..">
+                        <div class="body__table-foot--btn body__table-foot--btn-aply">Apply</div>
+                        <div class="body__table-foot--btn body__table-foot--btn-update">Update cart</div>
+                        <div class="body__table-foot--btn body__table-foot--btn-check"><i class="fa-solid fa-check"></i>Checkout</div>
+                    </div>
+
+                </div>
+
+                <!-- body form  -->
+                <div class="body__form">
+                    <div class="body__form-50">
+                        <div class="body__form-name">calculate shipping</div>
+                        <div class="body__form-body">
+                            <div class="body__form-body--select">
+                                Select Your Country
+                                <i class="fa-solid fa-chevron-down body__form-body--select-icon"></i>
+                            </div>
+                            <div class="body__form-body--input">
+                                <input type="text" class="body__form-body--input-item" placeholder="State / County">
+                                <input type="text" class="body__form-body--input-item" placeholder="Postcode / Zip">
+                            </div>
+                            <div class="body__form-body--btn">update totals</div>
+                        </div>
+
+                    </div>
+                    <div class="body__form-50">
+                        <div class="body__form-name">cart totals</div>
+                        <div class="body__form-body">
+                            <div class="body__form-body--table">
+                                <div class="body__form-body--table-item">
+                                    <div class="body__form-body--table-header">Subtotal</div>
+                                    <div class="body__form-body--table-item-value">$1285.99</div>
+                                </div>
+                                <div class="body__form-body--table-item">
+                                    <div class="body__form-body--table-header">Shipping And Handling</div>
+                                    <div class="body__form-body--table-item-value body__form-body--table-item-value-radio">
+                                        <div class="body__form-body--table-item-value--box">
+                                            <input type="radio" id="value1" name="value1">
+                                            <label for="value1">Flat Rate: $3.99</label>
+                                        </div>
+                                        <div class="body__form-body--table-item-value--box">
+                                            <input type="radio" id="value1" name="value1">
+                                            <label for="value1">Free Shipping</label>
+                                        </div>
+                                        <div class="body__form-body--table-item-value--box">
+                                            <input type="radio" id="value1" name="value1">
+                                            <label for="value1">Flat Rate: $12.99</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="body__form-body--table-item">
+                                    <div class="body__form-body--table-header">Total</div>
+                                    <div class="body__form-body--table-item-value">$2015.00</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- body list  -->
+                <div class="body__list">
+                    <div class="body__list-heading">You may be interested in</div>
+                    <div class="body__list-menu">
+                        <!-- item  -->
+                        <a href="" class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                            <img src="./assets/img/Sale Label.png" alt="" class="body__list-item-img--sale">
+                            <img src="./assets/img/new.png" alt="" class="body__list-item-img--new">
+                        </a>
+
+                        <a href="" class="body__list-item active-sale active-new">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                            <img src="./assets/img/Sale Label.png" alt="" class="body__list-item-img--sale">
+                            <img src="./assets/img/new.png" alt="" class="body__list-item-img--new">
+                        </a>
+
+                        <a href="" class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                            <img src="./assets/img/Sale Label.png" alt="" class="body__list-item-img--sale">
+                            <img src="./assets/img/new.png" alt="" class="body__list-item-img--new">
+                        </a>
+
+                        <a href="" class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                            <img src="./assets/img/Sale Label.png" alt="" class="body__list-item-img--sale">
+                            <img src="./assets/img/new.png" alt="" class="body__list-item-img--new">
+                        </a>
+
+                        <a href="" class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                            <img src="./assets/img/Sale Label.png" alt="" class="body__list-item-img--sale">
+                            <img src="./assets/img/new.png" alt="" class="body__list-item-img--new">
+                        </a>
+
+                        <a href="" class="body__list-item">
+                            <div class="body__list-item-avatar">
+                                <img src="./assets/img/item-avatar.png" alt="" class="body__list-item-avatar--img">
+                            </div>
+                            <div class="body__list-item-name">Denim Classy Shorts</div>
+                            <div class="body__list-item-price">$35.00-$89.99</div>
+                            <img src="./assets/img/Sale Label.png" alt="" class="body__list-item-img--sale">
+                            <img src="./assets/img/new.png" alt="" class="body__list-item-img--new">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer  -->
+        <div class="foot">
+            <div class="grid">
+                <div class="foot-block">
+                    <div class="foot__row">
+                        <!-- foot col  -->
+
+                        <div class="foot__col">
+                            <!-- over view  -->
+                            <div class="foot__col-overview">
+                                <div class="foot__col-overview--logo">
+                                    <img src="./assets/img/Logo2.png" alt="">
+                                </div>
+                                <div class="foot__col-overview--desc text-foot">
+                                    Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi placeat iure fugit dolorum quis, error eligendi sapiente earum optio deleniti est.
+                                </div>
+                            </div>
+
+                            <!-- contact  -->
+                            <div class="foot__col-contact">
+                                <div class="foot__col-contact--header header-foot">
+                                    <div class="foot__col-contact--heading heading-foot">Contact</div>
+                                    <div class="foot__col-contact--heading-non heading-foot heading-foot-non"></div>
+                                </div>
+                                <div class="foot__col-contact--address text-foot"><i class="fa-solid fa-location-dot"></i> Address:</div>
+                                <div class="foot__col-contact--address text-foot">980 New Hampshire Avenue Northwest #100, Washington, DC</div>
+                                <div class="foot__col-contact--address text-foot">20037, United States</div>
+
+                                <div class="line-foot">-----------------------------------------------------------------</div>
+
+                                <div class="foot__col-contact--connect text-foot"><i class="fa-solid fa-headphones"></i>Phone:  <a href="tel:+1 916-875-2235" class="link-foot">+1 916-875-2235</a> </div>
+                                <div class="foot__col-contact--connect text-foot"><i class="fa-solid fa-fax"></i>Fax: <a href="tel:+1 916-875-2235" class="link-foot">+1 916-875-2235</a></div>
+                                <div class="foot__col-contact--connect text-foot"><i class="fa-solid fa-envelope"></i>Email: <a href="mailto:info@domain.ltd" class="link-foot">info@domain.ltd</a></div>
+                                <div class="foot__col-contact--connect text-foot"><i class="fa-solid fa-globe"></i>Website: <a href=" www.codex-themes.com" class="link-foot">www.codex-themes.com</a></div>
+                            </div>
+                        </div>
+                        
+                        <div class="foot__col">
+                            <!-- post  -->
+                            <div class="foot__col-post">
+                                <div class="foot__col-post--header header-foot">
+                                    <div class="foot__col-post--heading heading-foot">recent post</div>
+                                    <div class="foot__col-post--heading-non heading-foot heading-foot-non"></div>
+                                </div>
+                                <div class="foot__col-post--list">
+                                    <!-- post item  -->
+                                    <a href="" class="foot__col-post--item line-foot--min">
+                                        <div class="foot__col-post--item-img"><img src="./assets/img/picture1.png" alt="" class="foot__col-post--item-img-src"></div>
+                                        <div class="foot__col-post--text">
+                                            <div class="foot__col-post--text-desc text-foot">Proin gravida nibh vel velit hi m auctor aliquet aenean...</div>
+                                            <div class="foot__col-post--text-foot">
+                                                <div class="foot__col-post--text-foot-day link-foot">27 Dec 2015</div>
+                                                <div class="foot__col-post--text-foot-chat text-foot"><i class="fa-solid fa-comments"></i> 9</div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="foot__col-post--item line-foot--min">
+                                        <div class="foot__col-post--item-img"><img src="./assets/img/picture2.png" alt="" class="foot__col-post--item-img-src"></div>
+                                        <div class="foot__col-post--text">
+                                            <div class="foot__col-post--text-desc text-foot">Proin gravida nibh vel velit hi m auctor aliquet aenean...</div>
+                                            <div class="foot__col-post--text-foot">
+                                                <div class="foot__col-post--text-foot-day link-foot">27 Dec 2015</div>
+                                                <div class="foot__col-post--text-foot-chat text-foot"><i class="fa-solid fa-comments"></i> 9</div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="foot__col-post--item line-foot--min">
+                                        <div class="foot__col-post--item-img"><img src="./assets/img/picture3.png" alt="" class="foot__col-post--item-img-src"></div>
+                                        <div class="foot__col-post--text">
+                                            <div class="foot__col-post--text-desc text-foot">Proin gravida nibh vel velit hi m auctor aliquet aenean...</div>
+                                            <div class="foot__col-post--text-foot">
+                                                <div class="foot__col-post--text-foot-day link-foot">27 Dec 2015</div>
+                                                <div class="foot__col-post--text-foot-chat text-foot"><i class="fa-solid fa-comments"></i> 9</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- useful  -->
+                            <div class="foot__col-usefull">
+                                <div class="foot__col-usefull--header header-foot">
+                                    <div class="foot__col-usefull--heading heading-foot">Usefull link</div>
+                                    <div class="foot__col-usefull--heading-non heading-foot heading-foot-non"></div>
+                                </div>
+                                <div class="foot__col-usefull--list">
+                                    <a href="" class="foot__col-usefull--item text-foot line-foot--min"><i class="fa-solid fa-circle"></i>General Information For Users</a>
+                                    <a href="" class="foot__col-usefull--item text-foot line-foot--min"><i class="fa-solid fa-circle"></i>General Information For Users</a>
+                                    <a href="" class="foot__col-usefull--item active text-foot line-foot--min"><i class="fa-solid fa-circle"></i>General Information For Users</a>
+                                    <a href="" class="foot__col-usefull--item text-foot line-foot--min"><i class="fa-solid fa-circle"></i>General Information For Users</a>
+                                    <a href="" class="foot__col-usefull--item text-foot line-foot--min"><i class="fa-solid fa-circle"></i>General Information For Users</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="foot__col">
+                            <!-- email  -->
+                            <div class="foot__col-email">
+                                <div class="foot__col-email--header header-foot">
+                                    <div class="foot__col-email--heading heading-foot">email us</div>
+                                    <div class="foot__col-email--heading-non heading-foot heading-foot-non"></div>
+                                </div>
+                                <div class="foot__col-email-list">
+                                    <input type="text" class="foot__col-email-item text-foot" placeholder="Your name">
+                                    <input type="text" class="foot__col-email-item text-foot" placeholder="Your email">
+                                    <textarea name="" id="" rows="4" class="foot__col-email-item text-foot" placeholder="Your message"></textarea>
+                                    <div class="foot__col-email-btn">send message</div>
+                                </div>
+                            </div>
+
+                            <!-- project  -->
+                            <div class="foot__col-project">
+                                <div class="foot__col-project--header header-foot">
+                                    <div class="foot__col-project--heading heading-foot">projects / clients ?</div>
+                                    <div class="foot__col-project--heading-non heading-foot heading-foot-non"></div>
+                                </div>
+                                <div class="foot__col-project--list base-picture-list">
+                                    <div class="foot__col-project--item base-picture-item">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-project--item-img">
+                                        <img src="./assets/img/picture2.png" alt="" class="foot__col-project--item-img">
+                                        <img src="./assets/img/picture3.png" alt="" class="foot__col-project--item-img">
+                                    </div>
+                                    <div class="foot__col-project--item base-picture-item">
+                                        <img src="./assets/img/picture2.png" alt="" class="foot__col-project--item-img">
+                                        <img src="./assets/img/picture3.png" alt="" class="foot__col-project--item-img">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-project--item-img">
+                                    </div>
+                                </div>
+                                <div class="foot__col-project--dot-list">
+                                    <i class="foot__col-project--dot-item fa-solid fa-circle"></i>
+                                    <i class="foot__col-project--dot-item fa-solid fa-circle"></i>
+                                    <i class="foot__col-project--dot-item fa-solid fa-circle"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="foot__col">
+                            <!-- feed  -->
+                            <div class="foot__col-feed">
+                                <div class="foot__col-feed--header header-foot">
+                                    <div class="foot__col-feed--heading heading-foot">Flickr feed</div>
+                                    <div class="foot__col-feed--heading-non heading-foot heading-foot-non"></div>
+                                </div>
+
+                                <div class="foot__col-feed--list base-picture-list">
+                                    <div class="foot__col-project--item base-picture-item">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-feed--item-img">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-feed--item-img">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-feed--item-img">
+                                    </div>
+                                    <div class="foot__col-project--item base-picture-item">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-feed--item-img">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-feed--item-img">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-feed--item-img">
+                                    </div>
+                                    <div class="foot__col-project--item base-picture-item">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-feed--item-img">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-feed--item-img">
+                                        <img src="./assets/img/picture1.png" alt="" class="foot__col-feed--item-img">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- letter  -->
+                            <div class="foot__col-letter">
+                                <div class="foot__col-letter--header header-foot">
+                                    <div class="foot__col-letter--heading heading-foot">Flickr feed</div>
+                                    <div class="foot__col-letter--heading-non heading-foot heading-foot-non"></div>
+                                </div>
+
+                                <div class="foot__col-letter--list">
+                                    <div class="foot__col-letter--list-desc text-foot">Subscribe to our MailChimp newsletter and stay up to date with all events coming straight in your mailbox:</div>
+                                    <div class="foot__col-letter--list-form">
+                                        <input type="text" class="foot__col-letter--list-form-input text-foot" placeholder="Your email address">
+                                        <div class="foot__col-letter--list-form-btn"><i class="fa-solid fa-chevron-right"></i></div>
+                                    </div>
+                                    <div class="foot__col-letter--list-desc-foot text-foot">* Personal information will be encrypted</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="foot-nav">
+            <div class="grid">
+                <div class="foot-nav__list">
+                    <div class="foot-nav__item">
+                        <div class="foot-nav__item-source text-foot">
+                            © Copyright 2015 <a class="text-foot" href="">CodexThemes</a> 
+                        </div>
+                    </div>
+
+                    <div class="foot-nav__item foot-nav__item-menu">
+                        <a href="" class="foot-nav__item-link text-foot">Support</a>
+                        <a href="" class="foot-nav__item-link text-foot">Contact Us  </a>
+                        <a href="" class="foot-nav__item-link text-foot">Disclaime</a>
+                        <a href="" class="foot-nav__item-link text-foot">Privacy Policy</a>
+                    </div>
+
+                    <div class="foot-nav__item foot-nav__item-menu">
+                        <a href="" class="foot-nav__item-icon text-foot fa-brands fa-twitter"></a>
+                        <a href="" class="foot-nav__item-icon text-foot fa-brands fa-facebook-f"></a>
+                        <a href="" class="foot-nav__item-icon text-foot fa-brands fa-linkedin-in"></a>
+                        <a href="" class="foot-nav__item-icon text-foot fa-brands fa-instagram"></a>
+                        <a href="" class="foot-nav__item-icon text-foot fa-brands fa-youtube"></a>
+                        <a href="" class="foot-nav__item-icon text-foot fa-brands fa-google-plus-g"></a>
+                        <a href="" class="foot-nav__item-icon text-foot fa-brands fa-pinterest-p"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
